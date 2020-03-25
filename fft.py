@@ -28,3 +28,4 @@ def fft(x):
 x = [1, 2, 3, 4, 5, 6, 7, 8]
 print(naive_dft.naive_dft(x))
 print(fft(x))
+print(np.fft.fft(x))
